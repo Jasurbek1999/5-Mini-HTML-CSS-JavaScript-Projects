@@ -4,6 +4,6 @@ labels.forEach(label => {
     label.innerHTML = label.innerText 
         .split('')
         .map((letter, index) => `<span
-        style="transition-delay:${index * 55}ms">${letter}</span>`)
+        style="transition-delay:${index * 45}ms">${letter}</span>`)
         .join('')
 })
